@@ -3,9 +3,10 @@ public class Main{
         
         MusicBox mbox = new MusicBox("S34TG65", 'Y', "Raindrops", "Misty", 
         "The path less traveled", "Country", "BZEE Music", "Rhythm Divine");
+        PlaySongs playing = new PlaySongs();
 
         System.out.println("Now playing the song");
-        mbox.playSong(mbox.getSongID(), mbox.getPremiumSong(), 2);
+        playing.playSong(mbox.getSongID(), mbox.getPremiumSong(), 2);
         
         // --- TODO
 
@@ -20,7 +21,7 @@ public class Main{
         "All the way", "POP", "LLL Music", "Relax");
 
         System.out.println("Now playing the song");
-        newBox.playSong(newBox.getSongID(),newBox.getPremiumSong(), 1);
+        playing.playSong(newBox.getSongID(),newBox.getPremiumSong(), 1);
 
     }
 }
