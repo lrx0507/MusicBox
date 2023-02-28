@@ -16,6 +16,11 @@ public class Main{
          * 
         */
         
+        MusicBox newBox = new MusicBox("T12344", 'N', "Forest", "Justin", 
+        "All the way", "POP", "LLL Music", "Relax");
+
+        System.out.println("Now playing the song");
+        newBox.playSong(newBox.getSongID(),newBox.getPremiumSong(), 1);
 
     }
 }

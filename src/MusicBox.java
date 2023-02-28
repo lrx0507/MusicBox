@@ -36,6 +36,13 @@ public class MusicBox {
         return isSongPremium;
     }
 
+    public String getSongAlbum(){
+        return songAlbum;
+    }
+
+    public String getSongGenre() {
+        return songGenre;
+    }
 
     // -- TODO
         /* Create the rest of "getters" for the remaining variables */
